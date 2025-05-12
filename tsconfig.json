@@ -2,15 +2,15 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": ".",             // <- ADICIONAR ISSO
+    "jsx": "react-native",      // <- ADICIONAR ISSO (evita erro de JSX em .tsx)
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["src/*"]          // <- AJUSTAR ISSO para refletir seu diretório `src`
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]
