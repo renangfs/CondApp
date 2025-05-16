@@ -17,25 +17,23 @@ export const styles = StyleSheet.create({
   logo: {
     width: 200,
     height: 200,
-    marginBottom: 20,
   },
   subtitle: {
-    fontSize: 18,
-    color: '#999999',
+    fontSize: 20,
+    color: '#ABABAB',
     textAlign: 'center',
-    marginTop: 10,
   },
   buttonContainer: {
     width: '100%',
   },
   adminButton: {
-    backgroundColor: '#1D5C47',
+    backgroundColor: '#255946',
     paddingVertical: 16,
     borderRadius: 12,
     marginBottom: 20,
   },
   userButton: {
-    backgroundColor: '#96C88C',
+    backgroundColor: '#93BE84',
     paddingVertical: 16,
     borderRadius: 12,
   },
@@ -46,3 +44,4 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+export default styles;

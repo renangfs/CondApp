@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, StatusBar, TouchableOpacity } from 'react-native';
-import { styles } from './styles';
+import { styles } from '@/app/index/styles';
 
 export default function Index() {
   return (
@@ -9,7 +9,7 @@ export default function Index() {
 
       <View style={styles.logoContainer}>
         <Image
-          source={require('../../assets/images/logo.png')}
+          source={require('@/app/images/logo.png')}
           style={styles.logo}
           resizeMode="contain"
         />

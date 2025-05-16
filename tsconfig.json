@@ -5,7 +5,7 @@
     "baseUrl": ".",             // <- ADICIONAR ISSO
     "jsx": "react-native",      // <- ADICIONAR ISSO (evita erro de JSX em .tsx)
     "paths": {
-      "@/*": ["src/*"]          // <- AJUSTAR ISSO para refletir seu diretório `src`
+      "@/*": ["src/*"]     // <- AJUSTAR ISSO para refletir seu diretório `src`
     }
   },
   "include": [
